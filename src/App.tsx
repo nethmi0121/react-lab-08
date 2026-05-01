@@ -1,10 +1,14 @@
 // App.tsx
-import Greeting from './Greeting'; 
+import Greeting from './Greeting';
+import NavBar from './NavBar'; 
 
 function App() {
   return (
     <div>
-      <Greeting /> 
+      <NavBar /> 
+      <main>
+        <Greeting />
+      </main>
     </div>
   );
 }
